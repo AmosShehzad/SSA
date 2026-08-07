@@ -1,0 +1,66 @@
+export const siteConfig = {
+  academyName: "SMART SKILLS ACADEMY",
+  tagline: "Pakistan's Next Generation AI Academy.",
+  navLinks: [
+    { name: "Home", href: "#" },
+    { name: "Courses", href: "#courses" },
+    { name: "Curriculum", href: "#curriculum" },
+    { name: "Most Popular", href: "#popular" },
+    { name: "Career Center", href: "#career" },
+    { name: "About Us", href: "#about" },
+  ],
+  hero: {
+    badge: "🚀 Admissions Open — Smart Freelancer Program",
+    headline: "Learn Future Skills. Build Your Career. Become Freelance-Ready.",
+    highlightWords: ["Future Skills.", "Build Your Career.", "Become Freelance-Ready."],
+    description: "Master AI, programming, data analytics, digital marketing, design, and other in-demand digital skills through practical, project-based learning.",
+    trustPoints: ["Practical Learning", "Project-Based", "Career Focused"],
+  },
+  trustStrip: [
+    { title: "Practical Learning", desc: "Learn skills you can actually use." },
+    { title: "Industry-Relevant Skills", desc: "Focus on modern digital skills." },
+    { title: "Project-Based Training", desc: "Turn learning into practical work." },
+    { title: "Career & Freelancing Focus", desc: "Prepare for the modern digital economy." },
+  ],
+  whyUs: [
+    { title: "AI-First Learning", desc: "Explore modern AI tools and workflows." },
+    { title: "Practical Skills", desc: "Focus on skills that can be applied to real work." },
+    { title: "Real Projects", desc: "Build practical projects instead of only watching lectures." },
+    { title: "Career Ready", desc: "Develop skills relevant to modern digital careers." },
+    { title: "Freelancing Focus", desc: "Understand how digital skills can become professional services." },
+    { title: "Future Focused", desc: "Learn technologies shaping the future of work." },
+  ],
+  featuredCourse: {
+    badge: "FEATURED PROGRAM",
+    title: "Smart Freelancer Program",
+    subtitle: "3-Month Practical Digital Skills & Freelancing Program",
+    description: "A practical learning journey designed to introduce students to AI, programming, design, marketing, analytics, web development, and modern digital skills.",
+    skills: ["AI Tools", "Graphic Design", "Prompt Engineering", "Python", "Digital Marketing", "Video Editing", "Data Analytics", "Web Development", "Generative AI", "Agentic AI", "Meta Ads"],
+    duration: "3 Months",
+    status: "Admissions Open",
+  },
+  skillsWeTeach: [
+    { name: "Artificial Intelligence", category: "AI" },
+    { name: "Generative AI", category: "AI" },
+    { name: "Agentic AI", category: "AI" },
+    { name: "Prompt Engineering", category: "AI" },
+    { name: "Python", category: "Dev" },
+    { name: "Data Analytics", category: "Data" },
+    { name: "Graphic Design", category: "Design" },
+    { name: "Digital Marketing", category: "Marketing" },
+    { name: "Video Editing", category: "Media" },
+    { name: "Web Development", category: "Dev" },
+    { name: "Freelancing", category: "Career" }
+  ],
+  learningJourney: [
+    { step: "01", title: "Learn", desc: "Build your foundation." },
+    { step: "02", title: "Practice", desc: "Apply your knowledge." },
+    { step: "03", title: "Build", desc: "Create practical projects." },
+    { step: "04", title: "Portfolio", desc: "Showcase your skills." },
+    { step: "05", title: "Freelance / Career", desc: "Start pursuing opportunities." },
+  ],
+  cta: {
+    heading: "Your Future Skills Start Here.",
+    text: "Start building practical digital skills for the AI-powered future.",
+  }
+};
