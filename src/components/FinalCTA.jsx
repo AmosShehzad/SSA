@@ -3,6 +3,14 @@ import { ArrowRight } from 'lucide-react';
 import { siteConfig } from '../data/siteConfig';
 
 export default function FinalCTA() {
+  // 1. Enter your WhatsApp number here (include country code without + or spaces)
+  // Example: "923001234567" or "14155552671"
+  const whatsappNumber = "923294421445"; 
+
+  // 2. Customize the default message sent by the student
+  const defaultMessage = encodeURIComponent("Hello! I would like to apply for a course at Smart Skills Academy.");
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${defaultMessage}`;
+
   const handleScroll = (targetId) => {
     const element = document.getElementById(targetId);
     if (element) {
@@ -31,13 +39,15 @@ export default function FinalCTA() {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              {/* Primary CTA Button */}
-              <button 
-                onClick={() => handleScroll('apply')}
+              {/* WhatsApp Redirect Button */}
+              <a 
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-cyan-400 hover:bg-cyan-300 text-[#0b0f19] px-8 py-4 rounded-xl font-bold text-base transition-all duration-200 shadow-lg hover:shadow-cyan-400/20 active:scale-95 flex items-center justify-center gap-2 group cursor-pointer"
               >
                 Apply Now <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               
               {/* Secondary CTA Button (Scrolls to Curriculum) */}
               <button 
