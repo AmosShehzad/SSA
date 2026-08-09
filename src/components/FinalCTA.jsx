@@ -5,7 +5,7 @@ import { siteConfig } from '../data/siteConfig';
 export default function FinalCTA() {
   // 1. Enter your WhatsApp number here (include country code without + or spaces)
   // Example: "923001234567" or "14155552671"
-  const whatsappNumber = "923234312999"; 
+  const whatsappNumber = "923430408300"; 
 
   // 2. Customize the default message sent by the student
   const defaultMessage = encodeURIComponent("Hello! I would like to apply for a course at Smart Skills Academy.");
